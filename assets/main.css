@@ -22,6 +22,7 @@
   src: url("~assets/fonts/Roboto-Italic.ttf") format("truetype");
 }
 
+/* Default page transition */
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.5s;
@@ -29,4 +30,28 @@
 .page-enter,
 .page-leave-to {
   opacity: 0;
+}
+
+:root body {
+  --color: #24292e;
+  --color-primary: #24292e;
+  --color-secondary: #24292e;
+  --bg: #ffffff;
+  --bg-secondary: rgba(255, 255, 255, 0.15);
+  --border-color: #ddd;
+}
+
+.dark-mode body {
+  --color: #fafbfc;
+  --color-primary: #fafbfc;
+  --color-secondary: #fafbfc;
+  --bg: #24292e;
+  --bg-secondary: rgba(36, 41, 46, 0.15);
+  --border-color: #ddd;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--bg);
+  color: var(--color);
 }

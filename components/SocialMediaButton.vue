@@ -12,6 +12,7 @@
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
 export default Vue.extend({
+  name: 'SocialMediaButton',
   props: {
     link: {
       type: String,
@@ -28,3 +29,13 @@ export default Vue.extend({
   }
 })
 </script>
+
+<style scoped>
+  a.btn span {
+    color: var(--color);
+  }
+
+  a.btn span.b-avatar {
+    background: var(--bg);
+  }
+</style>

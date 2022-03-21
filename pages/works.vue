@@ -1,9 +1,6 @@
 <template lang="pug">
   .container
-    .row
-      h3
-        u
-          | Works
+    PageHeader(name="Works")
 </template>
 
 <script lang="ts">
@@ -14,7 +11,4 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-  h3 u {
-    text-underline-offset: 5px;
-  }
 </style>

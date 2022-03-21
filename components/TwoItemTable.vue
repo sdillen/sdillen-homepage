@@ -3,8 +3,7 @@
     tbody
       tr(v-for="item,index in items")
         td
-          strong
-            | {{ index }}
+          | {{ index }}
         td
           | {{ item }}
 </template>
@@ -19,7 +18,7 @@ interface Items {
 }
 
 export default Vue.extend({
-  name: 'BioTable',
+  name: 'TwoItemTable',
   props: {
     items: {
       type: Object,
@@ -30,4 +29,12 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+  table.table-hover tbody tr:hover td:first-child {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+
+  td {
+    color: var(--color);
+  }
 </style>
