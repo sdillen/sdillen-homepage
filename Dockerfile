@@ -3,7 +3,6 @@ FROM node:17-alpine
 WORKDIR /usr/src/app
 COPY . .
 
-RUN npm install -g yarn
 RUN yarn install && yarn run build
 
 ENV NUXT_HOST=0.0.0.0
