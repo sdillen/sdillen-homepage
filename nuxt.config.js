@@ -11,7 +11,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Homepage of Stefan Dillenburg.It includes a short bio and links to his works and posts.'
+        content: 'Homepage of Stefan Dillenburg. It includes a short bio and links to his works and posts.'
       },
       { name: 'format-detection', content: 'telephone=no' }
     ],
