@@ -1,18 +1,24 @@
 <template lang="pug">
-  .row
-    .col.header
-      h2
-        | Stefan Dillenburg
-      h4
-        small
-          |
-          | IT Systems Engineer
-    .col.profile-image(align="right")
-      b-img(
-        rounded="circle"
-        src="https://avatars.githubusercontent.com/u/33925609?v=4"
-        alt="Profile Portrait"
-      )
+  div
+    .row
+      .col-8
+        h1
+          | Stefan Dillenburg
+        h2.d-none.d-md-block
+          small
+            |
+            | IT Systems Engineer
+      .col-4.profile-image(align="right")
+        b-img(
+          rounded="circle"
+          src="https://avatars.githubusercontent.com/u/33925609?v=4"
+          alt="Profile Portrait"
+        )
+    .row.d-sm-block.d-md-none
+      .col
+        h2
+          small
+            | IT Systems Engineer
 </template>
 
 <script lang="ts">
@@ -23,10 +29,6 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-  .header h2 {
-    margin-bottom: 0px;
-  }
-
   .profile-image img {
     background-color: transparent;
     height: 100px;
