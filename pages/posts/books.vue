@@ -46,7 +46,12 @@ export default Vue.extend({
               name: 'The Phoenix Project - Gene Kim',
               link: 'https://amzn.to/3imNwRH',
               description: 'This book is like a handbook for guiding you threw the DevOps way. It achieves that alongside a wonderful storyline that get\'s you hooked from the start. After the read I had a different look on myself and process structures in our company.'
-            }
+            },
+            {
+              name: 'Blackout - Marc Elsberg',
+              link: 'https://amzn.to/3s8wk7V',
+              description: 'A thrilling story about what could happen if our society undergoes a continent wide blackout. The author has an appealing way in creating all those characters that are involved at the same time. You as a reader are privileged to receive insights in all of those.'
+              }
           ]
         },
         {
