@@ -50,7 +50,7 @@ export default Vue.extend({
             {
               name: 'Blackout - Marc Elsberg',
               link: 'https://amzn.to/3s8wk7V',
-              description: 'A thrilling story about what could happen if our society undergoes a continent wide blackout. The author has an appealing way in creating all those characters that are involved at the same time. You as a reader are privileged to receive insights in all of those.'
+              description: 'A thrilling story about what could happen if our society undergoes a continent wide blackout. The author has an appealing way in creating all those characters that are involved at the same time. You as a reader are privileged to receive insights in all of those. Not to forget, there are hackers involved otherwise it wouldn\'t be in this category.'
               }
           ]
         },
